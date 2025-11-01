@@ -1,0 +1,282 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f4f7fa;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* ===== HEADER ===== */
+.top-header {
+  background: linear-gradient(90deg, #00796b, #004d40);
+  color: #fff;
+  padding: 15px 0;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-header h1 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.header-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.header-links a:hover {
+  color: #ffeb3b;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  background: #004d40;
+  padding: 12px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  background: #00bfa5;
+}
+
+.logo-item img {
+  height: 60px;
+}
+
+/* ===== BANNER ===== */
+.banner {
+  background: linear-gradient(rgba(0, 77, 64, 0.6), rgba(0, 150, 136, 0.7)), 
+              url('https://upload.wikimedia.org/wikipedia/commons/b/b2/Gopalganj_District_Bangladesh_01.jpg') center/cover no-repeat;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.overlay h2 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.overlay p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* ===== WELCOME ===== */
+.welcome {
+  width: 80%;
+  margin: 70px auto;
+  text-align: center;
+}
+
+.welcome h3 {
+  color: #777;
+  font-size: 18px;
+}
+
+.welcome h2 {
+  color: #004d40;
+  border-bottom: 3px solid #00bfa5;
+  display: inline-block;
+  margin: 15px 0 40px;
+}
+
+.dean-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  background: linear-gradient(135deg, #e0f2f1, #ffffff);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.dean-card img {
+  width: 180px;
+  border-radius: 50%;
+  border: 4px solid #00bfa5;
+}
+
+button {
+  background: linear-gradient(90deg, #00796b, #009688);
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #00bfa5, #00796b);
+}
+
+/* ===== DEPARTMENTS ===== */
+.departments {
+  width: 90%;
+  margin: 80px auto;
+  text-align: center;
+  background: linear-gradient(120deg, #e0f7fa, #ffffff);
+  padding: 60px 0;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.departments h2 {
+  font-size: 28px;
+  color: #004d40;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.department-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.department-card {
+  width: 320px;
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.department-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 150, 136, 0.3);
+}
+
+.department-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.department-info {
+  padding: 20px;
+}
+
+.department-info h3 {
+  font-size: 18px;
+  color: #004d40;
+  margin-bottom: 15px;
+}
+
+.department-info button {
+  background: linear-gradient(90deg, #00bfa5, #00796b);
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  border-radius: 25px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.department-info button:hover {
+  background: linear-gradient(90deg, #00796b, #00bfa5);
+  transform: scale(1.1);
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background: #004d40;
+  color: #fff;
+  padding: 60px 0 0;
+}
+
+.footer-container {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 40px;
+}
+
+.footer-box h3 {
+  margin-bottom: 15px;
+  color: #ffeb3b;
+}
+
+.footer-box ul {
+  list-style: none;
+}
+
+.footer-box li {
+  margin-bottom: 8px;
+  color: #e0f2f1;
+}
+
+.social-icons a {
+  color: #004d40;
+  background: #ffeb3b;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 8px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  background: #00bfa5;
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  background: #00332c;
+  padding: 15px 0;
+  margin-top: 30px;
+  font-size: 14px;
+}
